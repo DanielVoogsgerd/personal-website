@@ -27,7 +27,7 @@ h1, h2 { margin-bottom: 0.3em;}
 dfn { font-style: normal; }
 .knowledgecard { font-size: 0.9em; }
 .knowledgecard table { border-collapse: collapse; width: 100%; font-size: inherit; }
-
+.knowledgecard tr { vertical-align: top; }
 td { line-height: 1.5em; }
 
 .sidebar { max-width: 200px; margin: 0 auto; }
