@@ -35,7 +35,7 @@ td { line-height: 1.5em; }
 @media (min-width: 700px) {
 	.container { margin-top: 100px; }
 	main, .sidebar { float: left; }
-	main { width: calc(70% - 200px); margin-right: 10%; }
+	main { width: calc(90% - 200px); margin-right: 10%; }
 	.sidebar { width: 200px; }
 }
 
