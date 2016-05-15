@@ -4,16 +4,13 @@
 	width: 90%;
 	/*background: red;*/
 	overflow: hidden;
-	margin: 100px auto 0 auto;
+	margin: 0 auto;
 }
 
-main, .sidebar { float: left; }
-main { width: 70%; margin-right: 10%; }
-.sidebar { width: 20%; }
 
 p { line-height: 1.5em; }
 
-figure { position: relative; width: 100%; padding: 0; margin: 0 0 20px 0; }
+figure { position: relative; width: 100%; padding: 0; margin: 0 0 20px 0;  }
 figure img { position: absolute; top: 0; right: 0; width: 100%; height: 100%; border-radius: 50%; }
 .scalinghack { padding-bottom: 100%; }
 
@@ -21,7 +18,7 @@ figure img { position: absolute; top: 0; right: 0; width: 100%; height: 100%; bo
 
 a.icon { display: block; width: 30px; height: 30px; border: 2px solid black; font-family: 'FontAwesome'; position: relative; text-align: center; border-radius: 50%; color: inherit; text-decoration: none; }
 
-.icon:before { line-height: 27px; vertical-align: middle; font-size: 0.9em;  }
+.icon:before { line-height: 26px; vertical-align: middle; font-size: 15px;  }
 .icon.github:before { content: '\f113'; }
 .icon.linkedin:before { content: '\f0e1'; }
 .icon.googleplus:before { content: '\f0d5'; }
@@ -33,6 +30,19 @@ h1, h2 { margin-bottom: 0.3em;}
 .knowledgecard table { border-collapse: collapse; width: 100%; font-size: inherit; }
 
 td { line-height: 1.5em; }
+
+.sidebar { max-width: 200px; margin: 0 auto; }
+
+@media (min-width: 700px) {
+	.container { margin-top: 100px; }
+	main, .sidebar { float: left; }
+	main { width: calc(70% - 200px); margin-right: 10%; }
+	.sidebar { width: 200px; }
+}
+
+@media (max-width: 699px) {
+	.sidebar { margin-top: 50px; }
+}
 
 /* Font awesome */
 @font-face {
