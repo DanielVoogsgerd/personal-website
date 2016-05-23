@@ -1,0 +1,19 @@
+{
+	"name": "Daniel Voogsgerd",
+	"icons": [
+		{
+		"src": "icons/icon_96.png",
+		"sizes": "96x96"
+		},
+		{
+		"src": "icons/icon_192.png",
+		"sizes": "192x192"
+		}
+	],
+	"theme_color": "#424242",
+	"display": "browser",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/"
+}
+

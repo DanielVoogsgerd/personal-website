@@ -42,7 +42,6 @@ figure.flip img, figure input:checked ~ img {
 
 .scalinghack { padding-bottom: 100%; }
 
-
 /* Social icons */
 .social { display: flex; flex-direction: row; justify-content: space-between; }
 
